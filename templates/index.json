@@ -1,0 +1,68 @@
+{
+  "sections": {
+    "86d2e5c6-3e60-4b81-9650-6aafcd738938": {
+      "type": "my-new-page-section",
+      "blocks": {
+        "c622f695-df6f-48f0-adc0-56e370eeb405": {
+          "type": "gallery",
+          "settings": {
+            "g-id": true
+          }
+        }
+      },
+      "block_order": [
+        "c622f695-df6f-48f0-adc0-56e370eeb405"
+      ],
+      "disabled": true,
+      "settings": {
+        "hid": "This is your h1 tag",
+        "textid": "Hello",
+        "cid": true,
+        "select-id": "left"
+      }
+    },
+    "25a4613e-7136-428f-90c8-227f77857c65": {
+      "type": "product_slider_section",
+      "blocks": {
+        "451b9d01-6f56-4720-85bd-e5bd03a23010": {
+          "type": "Slide_item",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/gif.webp",
+            "heading_id": "Pack",
+            "para_id": "Pack your clothing into the organized compartments."
+          }
+        },
+        "0e5401ca-3331-4db7-9b64-81239585558b": {
+          "type": "Slide_item",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/gif.webp",
+            "heading_id": "Pack",
+            "para_id": "Pack your clothing into the organized compartments."
+          }
+        },
+        "4fdea1f2-a514-4093-9af5-e4d309b62d8e": {
+          "type": "Slide_item",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/gif.webp",
+            "heading_id": "Pack",
+            "para_id": "Pack your clothing into the organized compartments."
+          }
+        }
+      },
+      "block_order": [
+        "451b9d01-6f56-4720-85bd-e5bd03a23010",
+        "0e5401ca-3331-4db7-9b64-81239585558b",
+        "4fdea1f2-a514-4093-9af5-e4d309b62d8e"
+      ],
+      "settings": {
+        "img_id": "shopify:\/\/shop_images\/bag.webp",
+        "btn_text": "Buy Now",
+        "btn_url": ""
+      }
+    }
+  },
+  "order": [
+    "86d2e5c6-3e60-4b81-9650-6aafcd738938",
+    "25a4613e-7136-428f-90c8-227f77857c65"
+  ]
+}

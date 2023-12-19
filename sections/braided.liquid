@@ -1,0 +1,76 @@
+{{ 'my_custom_style.css' | asset_url | stylesheet_tag }}
+
+
+{% schema %}
+{
+  "name": "Image with text",
+  "settings": [
+    {
+      "type": "image_picker",
+      "label": "Insert Image:",
+      "id": "my__img"
+    },
+    {
+      "type": "text",
+      "label": "Insert Heading",
+      "id": "product_title",
+      "default": "Braided Bully Sticks"
+    },
+    {
+      "type": "textarea",
+      "label": "Insert Description",
+      "id": "product_description",
+      "default": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptates itaque quas..."
+    },
+     {
+      "type": "text",
+      "label": "Insert Button Text",
+      "id": "shop_text",
+      "default": "Shop Now"
+    },
+    {
+      "type": "url",
+      "label": "Button Link",
+      "id": "shop_link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Image with Text section",
+      "category": "Custom"
+    }
+  ]
+}
+
+{% endschema %}
+<div class="row">
+
+        <div class="left">
+            <img src="{{ section.settings.my__img | img_url:'master' }}" alt="cover" width="100%">
+        </div>
+
+        <div class="right">
+            <div class="content">
+                <h1>
+                    {{ section.settings.product_title }}
+                </h1>
+
+                <p style=>
+                   {{ section.settings.product_description | newline_to_br }}
+                </p>
+
+                <a class="btn2" href="{{ section.settings.shop_link }}">{{ section.settings.shop_text }}</a>
+            </div>
+        </div>
+
+    </div>
+
+    
+{% style %}
+
+
+
+{% endstyle %}
+
+{% javascript %}
+{% endjavascript %}

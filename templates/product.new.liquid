@@ -1,0 +1,16 @@
+<div class="product">
+  <div class="page-width">
+    {{ product.title }}  <br>
+    {{ product.description }}   <br>
+    {% for image in product.images %}
+      <img src="{{ image | image_url}}" /> <br>
+    {% endfor %}
+    {{ product.price | money }} <br>
+    {{ product.handle }}<br>
+    {{ product.url }}<br>
+
+    {% for varinat in product.variants %}
+      {{ variant.title }} <br>
+    {% endfor %}
+  </div>
+</div>

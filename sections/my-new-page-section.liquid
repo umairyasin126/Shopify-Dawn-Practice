@@ -1,0 +1,95 @@
+{% if section.settings.cid %}
+<div>
+  <h1 style="text-align: {{ section.settings.select-id }}">{{ section.settings.hid }}</h1>
+</div> <br>
+<div  style="text-align: {{ section.settings.select-id }}">
+        {{ section.settings.textid }}
+        {% if section.settings.img_id %}
+            <img src="{{ section.settings.img_id | img_url }}" width="400px" />
+        {% endif %}
+</div>
+{% endif %}
+
+    <div class="gallery">
+          {% for block in section.blocks %}
+              <div class="gallery_item">
+                  {% if block.settings.g-id %}
+                      <img src="{{ block.settings.gallery_img | img_url }}" />
+                  {% endif %}
+              </div> 
+          {% endfor %}
+    </div> 
+
+{% schema %}
+  {
+    "name": "Custom Data",
+    "settings": [
+      {
+        "type":"text",
+        "id":"hid",
+        "label": "Enter your heading",
+        "default":"This is your h1 tag"
+      },
+      {
+        "type":"text",
+        "id":"textid",
+        "label": "Enter your custom paragraph:",
+        "default":"Hello"
+      },
+      {
+        "type":"checkbox",
+        "id":"cid",
+        "label":"Allow this data to display",
+        "default":true
+      },
+      {
+        "type":"select",
+        "id":"select-id",
+        "label": "Position your text:",
+        "options": [
+          {"value":"left", "label":"Left"},
+          {"value":"right", "label":"Right"},
+          {"value":"center", "label":"Center"}
+        ],
+        "default":"left"
+      },
+      {
+        "type":"image_picker",
+        "id":"img_id",
+        "label":"Insert your image:"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "gallery",
+        "name":"gallery",
+        "settings": [
+          {
+          "type":"checkbox",
+          "id":"g-id",
+          "label":"Enable gallery image:",
+          "default":true
+          },
+          {
+            "type":"image_picker",
+            "id":"gallery_img",
+            "label":"Insert your image:"
+          }
+        ]
+      }
+    ]
+    ,
+    "presets":[
+      {
+        "name":"My Custom Text",
+        "category":"Text"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,107 @@
+{{ 'my_custom_style.css' | asset_url | stylesheet_tag }}
+
+ 
+<div class="div-container">
+        <div class="div1">
+            <h1>{{ section.settings.div1_title }}</h1>
+            <a href="{{ section.settings.div1_button_link }}" class="btn1">{{ section.settings.div1_button_text }}</a>
+        </div>
+        <div class="div2">
+            <div class="inner1">
+                <h1>{{ section.settings.inner1_title }}</h1>
+                <h2>{{ section.settings.inner1_subtitle }}</h2>
+            </div>    
+            <div class="inner2">
+                <h1>{{ section.settings.inner2_title }}</h1>
+                <h2>{{ section.settings.inner2_subtitle }}</h2>
+            </div>
+        </div>
+    </div>
+
+    {% style %}
+      .div1 {
+    background: url('{{ section.settings.div1_img | img_url:'master' }}') center/cover no-repeat;
+    gap: 20px;
+    }
+      .inner1 {
+          background-image: url('{{ section.settings.inner1_img | img_url:'master' }}');
+      }
+
+    .inner2 {
+    background-image: url('{{ section.settings.inner2_img | img_url:'master' }}');
+    }
+
+    {% endstyle %}
+
+
+      {% schema %}
+ {
+  "name": "Main banner:",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Insert heading of left section:",
+      "id": "div1_title",
+      "default": "Unleash wholesale power for your business!"
+    },
+    {
+      "type": "text",
+      "label": "Insert button text:",
+      "id": "div1_button_text",
+      "default": "Get whole sale prices now!"
+    },
+    {
+      "type": "url",
+      "label": "Insert button link:",
+      "id": "div1_button_link"
+    },
+    {
+      "type": "image_picker",
+      "label": "Insert image for left section:",
+      "id": "div1_img"
+    },
+    {
+      "type": "text",
+      "label": "Insert heading for right section",
+      "id": "inner1_title",
+      "default": "No half-measures Nothing but the best"
+    },
+    {
+      "type": "text",
+      "label": "Insert subtitle:",
+      "id": "inner1_subtitle",
+      "default": "Only natural pet treats"
+    },
+    {
+      "type": "image_picker",
+      "label": "Insert image for right section:",
+      "id": "inner1_img"
+    },
+    {
+      "type": "text",
+      "label": "Insert heading for lower section",
+      "id": "inner2_title",
+      "default": "Trachea Tubes tower frenzy"
+    },
+    {
+      "type": "text",
+      "label": "Insert subtitle",
+      "id": "inner2_subtitle",
+      "default": "A Delicious Stacking Madness!"
+    },
+    {
+      "type": "image_picker",
+      "label": "Insert image:",
+      "id": "inner2_img"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Main Banner",
+      "category": "Custom"
+    }
+  ]
+}
+
+{% endschema %}
+    

@@ -1,0 +1,80 @@
+{{ 'my_custom_style.css' | asset_url | stylesheet_tag }}
+
+
+
+<div class="container2">
+    <div class="lefthalf">
+      <h1>{{ section.settings.title }}</h1>
+      <p>{{ section.settings.description }}</p>
+      <a class="my_btn" href="{{ section.settings.button_link }}">{{ section.settings.button_text }}</a>
+    </div>
+    <div class="right-half">
+      {% for block in section.blocks %}
+      <div class="sect sect{{my_inc}}">
+        <a href="{{ block.settings.link }}">
+          <img src="{{ block.settings.image_src | img_url:'master' }}" alt="{{ section.settings.alt_text }} ">
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+{% schema %}
+{
+  "name": "ProductOfMonth",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Title",
+      "id": "title",
+      "default": "Products of the month"
+    },
+    {
+      "type": "textarea",
+      "label": "Description",
+      "id": "description",
+      "default": "Discover the must-have products of the month!"
+    },
+    {
+      "type": "text",
+      "label": "Button Text",
+      "id": "button_text",
+      "default": "View All"
+    },
+    {
+      "type": "url",
+      "label": "Button Link",
+      "id": "button_link"
+    },
+    {
+      "type": "text",
+      "label": "Image Alt Text",
+      "id": "alt_text",
+      "default": "Image Alt Text"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Image",
+          "id": "image_src"
+        },
+        {
+          "type": "url",
+          "label": "Link",
+          "id": "link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Products of Month section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

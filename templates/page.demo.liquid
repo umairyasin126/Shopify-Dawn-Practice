@@ -1,0 +1,72 @@
+<div>
+
+{% assign myVar = "This is my first variable string" %}
+  {{ myVar }}
+  <br>
+  {% comment %}
+    this is comment
+  {% endcomment %}
+
+  {% assign num1 = 250 %}
+  {% assign num2 = 100 %}
+  {% assign num3 = 150 %}
+
+  addition = {{ num2 | plus: num1 }}
+  <br>
+   subtraction = {{ num2 | minus: num1 }}
+  <br>
+   Multipication = {{ num2 | times: num1 }}
+  <br>
+   divide = {{ num2 | divided_by: num1 }}
+  <br>
+
+  {% if num2 > num1 %}
+      {% if num2 > num3 %}
+        Greater value {{ num2 }}
+       {% else %}
+        Greater value {{ num3 }}
+      {% endif %}
+  {% elsif num1 > num2 %}
+      {% if num1 > num3%}
+        Greater value {{ num1 }}
+       {% else %} 
+        Greater value {{ num3 }}
+      {% endif %}
+  {% endif %}
+    <br>
+  {% assign color = "pink" %}
+
+  {% case color %}
+    {% when "red" %}
+      Color is {{color}}
+    {% when "blue" %}
+      Color is {{color}}
+    {% else %}
+      None of the colors selected
+  {% endcase %}
+    <br>
+  {% for i in (1..10) %}
+      {% if forloop.first %}
+        The forloop index is First <br>
+      {% elsif forloop.last %}}
+        The forloop index is Last <br>
+      {% else %}
+          The for loop index is {{ forloop.index0 }} <br>
+      {% endif %}
+  {% endfor %}
+
+  {% for product in collections.frontpage.products %}
+      {{ product.title }} <br>
+  {% endfor %}
+
+
+
+
+
+
+
+
+
+
+  
+</div>

@@ -1,0 +1,486 @@
+/* Main Banner css */
+  body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.div-container {
+    display: flex;
+    justify-content: center;
+   
+   margin: 2% 4%;
+}
+
+.div1,
+.div2 {
+    width: 50%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start; */
+    /* height: 70vh; */
+}
+
+
+.div1 h1 {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 10% 50% 2% 5%;
+}
+
+
+.btn1 {
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: #FE6129;
+    padding: 10px 50px;
+    color: white;
+    align-self: flex-start; 
+    margin-left: 5%;
+    transition: 0.3s ease;
+}
+.btn1:hover {
+    padding: 10px 60px;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner1, .inner2 {
+    flex: 1; /* Equal space for inner1 and inner2 */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inner1,
+.inner2 {
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1; 
+}
+
+
+
+.inner1 h1,
+.inner2 h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 10% 50% 3% 7%;
+}
+
+.inner1 h2,
+.inner2 h2 {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0% 50% 3% 7%;
+}
+
+@media (max-width:900px){
+      
+    .div-container{
+      flex-direction: column;
+      margin: 0;
+    }
+  .div1{
+    height: 50vh;
+  }
+   .inner1, .inner2{
+     height:30vh;
+   }
+    .div1 h1{
+        font-size: 30px;
+        padding: 10% 50% 2% 5%;
+        text-align: left;
+    }
+   
+    .inner1 h1, .inner2 h1{
+        font-size: 22px;
+        text-align: left;
+    }
+    .inner1 h2, .inner2 h2{
+        font-size: 20px;
+        text-align: left;
+    }
+    .div1, .div2{
+        width: 100%;
+    }
+    .div1 .btn1 {
+        display: block;
+        width:90%;
+        text-align: center;
+    }
+    
+}
+  @media screen and (max-width: 480px) {
+      .div1 .btn1 {
+        padding: 10px 40px;
+        font-size: 15px;
+        margin-top: 8%;
+    }
+     .div1 h1{
+        font-size: 25px;
+        padding: 14% 50% 2% 5%;
+    }
+       .inner1 h1, .inner2 h1{
+        font-size: 18px;
+    }
+    .inner1 h2, .inner2 h2{
+        font-size: 12px;
+    }
+  }
+
+/* Order In Bulk Section */
+
+.maincontainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2% 4%;
+}
+
+.sectio {
+  width: 50%;
+  padding: 5%;
+  color: white !important;
+
+  transition: background-color 0.3s;
+}
+
+.sectio1 {
+  background-color: #346F6C;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+
+
+.sectio img {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 34px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.sectio p {
+  font-size: 16px;
+}
+
+.my_button {
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: #346F6C;
+  color: white !important;
+  text-decoration: none;
+  border: 2px solid white !important;
+  border-radius: 60px;
+  transition: color 0.3s, background-color 0.3s, border-color 0.3s, padding 0.3s;
+}
+
+.my_button:hover {
+  padding: 10px 45px;
+}
+@media screen and (max-width: 900px) {
+  .maincontainer {
+    flex-direction: column-reverse;
+    margin:0;
+  }
+  .small_img{
+    display:none;
+  }
+  .sectio {
+    width: 100%; 
+  }
+  .sectio2 {
+    height: 35vh;
+  }
+  .sectio1 {
+   
+    align-items: center;
+  }
+
+  .my_button {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+  }
+  @media screen and (max-width: 480px) {
+    .sectio1 h1{
+      font-size:25px;
+      font-weight: 500;
+    }
+      .sectio1 p{
+      font-size:12px;
+    }
+     .my_button {
+   font-size:15px;
+  }
+  }
+}
+
+/* Products of month section */
+
+
+  .container2 {
+    display: flex;
+    
+   margin: 2% 4%;
+   
+  }
+
+  .lefthalf {
+     background-color: #F8DA3C;
+     width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 5%;
+  }
+  .lefthalf h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 1%;
+  }
+  .lefthalf a{
+    margin-top: 5%;
+  }
+  .right-half {
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sect {
+    flex-basis: 50%;
+    position: relative;
+  }
+
+  .sect a {
+    display: block;
+    text-decoration: none;
+    height: 100%;
+  }
+
+  .sect img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+ 
+  .my_btn {
+  display: inline-block;
+  padding: 10px 50px;
+  background-color: #f8da3c;
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 60px;
+  transition: color 0.3s, background-color 0.3s, border-color 0.3s, padding 0.3s;
+}
+.my_btn:hover{
+    cursor: pointer;
+    padding: 10px 60px;
+}
+  @media (max-width: 900px) {
+    
+    .container2 {
+      flex-direction: column-reverse;
+      margin:0;
+    }
+    .right-half {
+      padding:0;
+    }
+     .lefthalf {
+    align-items: center;
+       
+  }
+    .lefthalf,
+    .right-half {
+      width:100%;
+    }
+
+    .sect {
+      flex-basis: 100%;
+    }
+    .my_btn{
+      width:100%;
+      text-align:center;
+      border: 3px solid black;
+      padding: 7px 40px;
+    }
+  .sect:nth-child(1) { order: 1; }
+  .sect:nth-child(2) { order: 2; }
+  .sect:nth-child(3) { order: 4; }
+  .sect:nth-child(4) { order: 3; }
+  }
+    @media screen and (max-width: 480px) {
+     .lefthalf h1{
+       font-size: 25px;
+       padding: 0% 25%;
+     }
+      .lefthalf p{
+       font-size: 12px;
+     }
+}
+
+/* Logo Section */
+.main-container {
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    background-color: #F7F4F2;
+  margin: 2% 4%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.upper {
+    margin: auto;
+    padding: 2% 5%;
+}
+
+.lower {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+}
+
+.image-logo {
+    margin-top: -25%;
+    width: 6vw;
+}
+
+.small-heading {
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 500;
+  color: white;
+}
+.section2 h2{
+  color: black !important;
+}
+.sec {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+    border-radius: 10px;
+}
+
+
+
+
+@media (max-width: 900px) {
+   .main-container{
+     display: none;
+   }
+}
+
+/* Braided Section */
+.row{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 2% 4%;
+}
+.left, .right{
+    width: 50%;
+}
+.row .left{
+    overflow: hidden;
+}
+
+.row .left img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.row .right{
+    display: flex;
+    align-items: flex-start;
+}
+
+.row .right .content{
+    padding-left: 5%;
+    text-align: left;
+}
+ .row .right .content p{
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 15px;
+  
+ }
+
+.row .right .content h1{
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #FE6129;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 60px;
+    transition: 0.3s ease;
+    
+  }
+  
+  .btn2:hover {
+    padding: 10px 45px;
+  }
+
+ @media (max-width: 900px){
+    .row {
+        flex-direction: column;
+        margin:0;
+    }
+    .left, .right{
+        width: 100%;
+    }
+   .btn2{
+     width: 100%;
+     margin:auto;
+     text-align: center;
+      margin-top: 2%;
+   }
+   .row .right .content{
+    padding: 2% 6%;
+  }
+}
+@media screen and (max-width: 480px) {
+    .row .right .content h1{
+    font-size: 25px;
+      font-weight: 600;
+    }
+   .row .right .content p{
+    font-size: 14px;
+  
+ }
+  }
+}

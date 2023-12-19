@@ -1,0 +1,69 @@
+{{ 'my_custom_style.css' | asset_url | stylesheet_tag }}
+ 
+
+{% assign my_section = section.settings %}
+
+<div class="maincontainer">
+    <div class="sectio sectio1">
+        <img class="small_img" src="{{ my_section.image1 | img_url:'master'}}" alt="Small Image">
+        <h1 class="heading" style="color:white;">{{ my_section.heading1 }}</h1>
+        <p>{{ my_section.description1 }}</p>
+        <p style="margin-top: -3%;">{{ my_section.description2 }}</p>
+        <a class="my_button" href="{{ my_section.buttonLink1 }}" >{{ my_section.button__txt }}</a>
+    </div>
+    <div class="sectio sectio2" style= " background: url({{my_section.img_back | img_url:'master'}}) center/cover no-repeat;">
+        
+    </div>
+</div>
+{% schema %}
+{
+  "name": "Order In Bulk",
+  "settings": [
+    {
+      "type": "image_picker",
+      "label": "Image for Section 1",
+      "id": "image1"
+    },
+    {
+      "type": "text",
+      "label": "Heading for Section 1",
+      "id": "heading1",
+      "default": "Order in Bulk"
+    },
+    {
+      "type": "textarea",
+      "label": "First Description for Section 1",
+      "id": "description1",
+      "default": "Need to restock, pack, or setup your own bags?"
+    },
+    {
+      "type": "textarea",
+      "label": "Second Description for Section 1",
+      "id": "description2",
+      "default": "Use our bulk ordering process!"
+    },
+    {
+      "type": "text",
+      "label": "Button Text for Section 1",
+      "id": "button__txt",
+      "default": "Shop Now"
+    },
+    {
+      "type": "url",
+      "label": "Button Link for Section 1",
+      "id": "buttonLink1"
+    },
+     {
+      "type": "image_picker",
+      "label": "Image for Section 2",
+      "id": "img_back"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Order in Bulk section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

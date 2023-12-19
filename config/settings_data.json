@@ -1,0 +1,421 @@
+{
+  "current": {
+    "logo_width": 90,
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#121212",
+    "gradient_accent_1": "",
+    "colors_accent_2": "#334fb4",
+    "gradient_accent_2": "",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#ffffff",
+    "gradient_background_1": "",
+    "colors_background_2": "#f3f3f3",
+    "gradient_background_2": "",
+    "type_header_font": "roboto_n4",
+    "heading_scale": 100,
+    "type_body_font": "assistant_n4",
+    "body_scale": 100,
+    "page_width": 1200,
+    "spacing_sections": 0,
+    "spacing_grid_horizontal": 8,
+    "spacing_grid_vertical": 8,
+    "buttons_border_thickness": 1,
+    "buttons_border_opacity": 100,
+    "buttons_radius": 40,
+    "buttons_shadow_opacity": 0,
+    "buttons_shadow_horizontal_offset": 0,
+    "buttons_shadow_vertical_offset": 4,
+    "buttons_shadow_blur": 5,
+    "variant_pills_border_thickness": 1,
+    "variant_pills_border_opacity": 55,
+    "variant_pills_radius": 40,
+    "variant_pills_shadow_opacity": 0,
+    "variant_pills_shadow_horizontal_offset": 0,
+    "variant_pills_shadow_vertical_offset": 4,
+    "variant_pills_shadow_blur": 5,
+    "inputs_border_thickness": 1,
+    "inputs_border_opacity": 55,
+    "inputs_radius": 0,
+    "inputs_shadow_opacity": 0,
+    "inputs_shadow_horizontal_offset": 0,
+    "inputs_shadow_vertical_offset": 4,
+    "inputs_shadow_blur": 5,
+    "card_style": "standard",
+    "card_image_padding": 0,
+    "card_text_alignment": "left",
+    "card_color_scheme": "background-2",
+    "card_border_thickness": 0,
+    "card_border_opacity": 10,
+    "card_corner_radius": 0,
+    "card_shadow_opacity": 0,
+    "card_shadow_horizontal_offset": 0,
+    "card_shadow_vertical_offset": 4,
+    "card_shadow_blur": 5,
+    "collection_card_style": "standard",
+    "collection_card_image_padding": 0,
+    "collection_card_text_alignment": "left",
+    "collection_card_color_scheme": "background-2",
+    "collection_card_border_thickness": 0,
+    "collection_card_border_opacity": 10,
+    "collection_card_corner_radius": 0,
+    "collection_card_shadow_opacity": 0,
+    "collection_card_shadow_horizontal_offset": 0,
+    "collection_card_shadow_vertical_offset": 4,
+    "collection_card_shadow_blur": 5,
+    "blog_card_style": "standard",
+    "blog_card_image_padding": 0,
+    "blog_card_text_alignment": "left",
+    "blog_card_color_scheme": "background-2",
+    "blog_card_border_thickness": 0,
+    "blog_card_border_opacity": 10,
+    "blog_card_corner_radius": 0,
+    "blog_card_shadow_opacity": 0,
+    "blog_card_shadow_horizontal_offset": 0,
+    "blog_card_shadow_vertical_offset": 4,
+    "blog_card_shadow_blur": 5,
+    "text_boxes_border_thickness": 0,
+    "text_boxes_border_opacity": 10,
+    "text_boxes_radius": 0,
+    "text_boxes_shadow_opacity": 0,
+    "text_boxes_shadow_horizontal_offset": 0,
+    "text_boxes_shadow_vertical_offset": 4,
+    "text_boxes_shadow_blur": 5,
+    "media_border_thickness": 1,
+    "media_border_opacity": 5,
+    "media_radius": 0,
+    "media_shadow_opacity": 0,
+    "media_shadow_horizontal_offset": 0,
+    "media_shadow_vertical_offset": 4,
+    "media_shadow_blur": 5,
+    "popup_border_thickness": 1,
+    "popup_border_opacity": 10,
+    "popup_corner_radius": 0,
+    "popup_shadow_opacity": 0,
+    "popup_shadow_horizontal_offset": 0,
+    "popup_shadow_vertical_offset": 4,
+    "popup_shadow_blur": 5,
+    "drawer_border_thickness": 1,
+    "drawer_border_opacity": 10,
+    "drawer_shadow_opacity": 0,
+    "drawer_shadow_horizontal_offset": 0,
+    "drawer_shadow_vertical_offset": 4,
+    "drawer_shadow_blur": 5,
+    "badge_position": "bottom left",
+    "badge_corner_radius": 40,
+    "sale_badge_color_scheme": "accent-2",
+    "sold_out_badge_color_scheme": "inverse",
+    "accent_icons": "text",
+    "brand_headline": "",
+    "brand_description": "<p><\/p>",
+    "brand_image_width": 100,
+    "social_facebook_link": "",
+    "social_instagram_link": "",
+    "social_youtube_link": "",
+    "social_tiktok_link": "",
+    "social_twitter_link": "",
+    "social_snapchat_link": "",
+    "social_pinterest_link": "",
+    "social_tumblr_link": "",
+    "social_vimeo_link": "",
+    "predictive_search_enabled": true,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": false,
+    "currency_code_enabled": true,
+    "cart_type": "notification",
+    "show_vendor": false,
+    "show_cart_note": false,
+    "cart_drawer_collection": "",
+    "sections": {
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "color_scheme": "background-1"
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+          "color_scheme": "background-1"
+        }
+      },
+      "my-new-page-section": {
+        "type": "my-new-page-section",
+        "settings": {
+          "hid": "This is your h1 tag",
+          "textid": "Hello this is my custom paragraph.",
+          "cid": true,
+          "select-id": "center",
+          "img_id": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg"
+        }
+      },
+      "order_in_bulk": {
+        "type": "order_in_bulk",
+        "settings": {
+          "image1": "shopify:\/\/shop_images\/box_1.png",
+          "heading1": "Order in Bulk",
+          "description1": "Need to restock, pack, or setup your own bags?",
+          "description2": "Use our bulk ordering process!",
+          "button__txt": "Shop Now",
+          "buttonLink1": "",
+          "img_back": "shopify:\/\/shop_images\/Group_39_2x_19faaf27-76b9-4c1d-b258-16c8812b3134.png"
+        }
+      },
+      "products_of_month": {
+        "type": "products_of_month",
+        "blocks": {
+          "54a4d018-26a6-4089-8796-549a7b52e0c1": {
+            "type": "image",
+            "settings": {
+              "image_src": "shopify:\/\/shop_images\/Group_28_2x_da8d6f5a-aa08-44b1-b1b8-068cdac1aa0d.png",
+              "link": "shopify:\/\/products\/black-leather-bag"
+            }
+          },
+          "841d4b6a-5e8c-4e06-a628-2c8be9745529": {
+            "type": "image",
+            "settings": {
+              "image_src": "shopify:\/\/shop_images\/Group_29_2.png",
+              "link": "shopify:\/\/products\/chequered-red-shirt"
+            }
+          },
+          "9d1a0c4a-c633-4435-8f5d-ebb226485c26": {
+            "type": "image",
+            "settings": {
+              "image_src": "shopify:\/\/shop_images\/Group_30_2x_a1607bd0-eafd-43f5-abee-ec7748251d53.png",
+              "link": "shopify:\/\/products\/chequered-red-shirt"
+            }
+          },
+          "0a8ca387-cb52-4225-95ec-c6fe7038de42": {
+            "type": "image",
+            "settings": {
+              "image_src": "shopify:\/\/shop_images\/Group_31.png",
+              "link": "shopify:\/\/products\/classic-leather-jacket"
+            }
+          }
+        },
+        "block_order": [
+          "54a4d018-26a6-4089-8796-549a7b52e0c1",
+          "841d4b6a-5e8c-4e06-a628-2c8be9745529",
+          "9d1a0c4a-c633-4435-8f5d-ebb226485c26",
+          "0a8ca387-cb52-4225-95ec-c6fe7038de42"
+        ],
+        "settings": {
+          "title": "Products of the month",
+          "description": "Discover the must-have products of the month!",
+          "button_text": "View All",
+          "button_link": "",
+          "alt_text": "Image Alt Text"
+        }
+      },
+      "logo_section": {
+        "type": "logo_section",
+        "blocks": {
+          "3e0c9d1d-b964-4d9c-9c0b-0f20aa9856a7": {
+            "type": "image",
+            "settings": {
+              "small_img": "shopify:\/\/shop_images\/Group_32.png",
+              "main_img": "shopify:\/\/shop_images\/Group_37.png",
+              "mytext_id": "Grass Fed & Grain Free"
+            }
+          },
+          "95ae6df1-c8b3-4728-a4a4-9eb38395f496": {
+            "type": "image",
+            "settings": {
+              "small_img": "shopify:\/\/shop_images\/Group_33.png",
+              "main_img": "shopify:\/\/shop_images\/Group_36.png",
+              "mytext_id": "100% Natural, No Junk!"
+            }
+          },
+          "c2f5a631-1f18-4301-9a35-ac182a1d3a3a": {
+            "type": "image",
+            "settings": {
+              "small_img": "shopify:\/\/shop_images\/Group_34.png",
+              "main_img": "shopify:\/\/shop_images\/Group_35.png",
+              "mytext_id": "Ethically Sourced"
+            }
+          }
+        },
+        "block_order": [
+          "3e0c9d1d-b964-4d9c-9c0b-0f20aa9856a7",
+          "95ae6df1-c8b3-4728-a4a4-9eb38395f496",
+          "c2f5a631-1f18-4301-9a35-ac182a1d3a3a"
+        ],
+        "settings": {
+          "logo_img": "shopify:\/\/shop_images\/Group_22.png"
+        }
+      },
+      "braided": {
+        "type": "braided",
+        "settings": {
+          "my__img": "shopify:\/\/shop_images\/Group_40_a729d305-2ca0-4f07-864b-5a655b13d0ce.png",
+          "product_title": "Braided Bully Sticks",
+          "product_description": "Ethically sourced and made from 100% South American bull pizzle. These premium treats are a good source of amino acids, known to support brain health as well as body and coat health. These long lasting chews also promote healthy teeth and gums. Easy to digest, high in protein and low in fat. No additives, fillers, hormones, chemicals or preservatives. These chews are three Bully Sticks hand braided together.",
+          "shop_text": "Shop Now",
+          "shop_link": "shopify:\/\/products\/black-leather-bag"
+        }
+      },
+      "main-banner": {
+        "type": "main-banner",
+        "settings": {
+          "div1_title": "Unleash wholesale power for your business!",
+          "div1_button_text": "Get whole sale prices now!",
+          "div1_button_link": "shopify:\/\/collections",
+          "div1_img": "shopify:\/\/shop_images\/Group_38.png",
+          "inner1_title": "No half-measures Nothing but the best",
+          "inner1_subtitle": "Only natural pet treats",
+          "inner1_img": "shopify:\/\/shop_images\/Mask_Group_1.png",
+          "inner2_title": "Trachea Tubes tower frenzy",
+          "inner2_subtitle": "A Delicious Stacking Madness!",
+          "inner2_img": "shopify:\/\/shop_images\/Group_23.png"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
+  "presets": {
+    "Default": {
+      "logo_width": 90,
+      "colors_solid_button_labels": "#ffffff",
+      "colors_accent_1": "#121212",
+      "gradient_accent_1": "",
+      "colors_accent_2": "#334fb4",
+      "gradient_accent_2": "",
+      "colors_text": "#121212",
+      "colors_outline_button_labels": "#121212",
+      "colors_background_1": "#ffffff",
+      "gradient_background_1": "",
+      "colors_background_2": "#f3f3f3",
+      "gradient_background_2": "",
+      "type_header_font": "assistant_n4",
+      "heading_scale": 100,
+      "type_body_font": "assistant_n4",
+      "body_scale": 100,
+      "page_width": 1200,
+      "spacing_sections": 0,
+      "spacing_grid_horizontal": 8,
+      "spacing_grid_vertical": 8,
+      "buttons_border_thickness": 1,
+      "buttons_border_opacity": 100,
+      "buttons_radius": 0,
+      "buttons_shadow_opacity": 0,
+      "buttons_shadow_horizontal_offset": 0,
+      "buttons_shadow_vertical_offset": 4,
+      "buttons_shadow_blur": 5,
+      "variant_pills_border_thickness": 1,
+      "variant_pills_border_opacity": 55,
+      "variant_pills_radius": 40,
+      "variant_pills_shadow_opacity": 0,
+      "variant_pills_shadow_horizontal_offset": 0,
+      "variant_pills_shadow_vertical_offset": 4,
+      "variant_pills_shadow_blur": 5,
+      "inputs_border_thickness": 1,
+      "inputs_border_opacity": 55,
+      "inputs_radius": 0,
+      "inputs_shadow_opacity": 0,
+      "inputs_shadow_horizontal_offset": 0,
+      "inputs_shadow_vertical_offset": 4,
+      "inputs_shadow_blur": 5,
+      "card_style": "standard",
+      "card_image_padding": 0,
+      "card_text_alignment": "left",
+      "card_color_scheme": "background-2",
+      "card_border_thickness": 0,
+      "card_border_opacity": 10,
+      "card_corner_radius": 0,
+      "card_shadow_opacity": 0,
+      "card_shadow_horizontal_offset": 0,
+      "card_shadow_vertical_offset": 4,
+      "card_shadow_blur": 5,
+      "collection_card_style": "standard",
+      "collection_card_image_padding": 0,
+      "collection_card_text_alignment": "left",
+      "collection_card_color_scheme": "background-2",
+      "collection_card_border_thickness": 0,
+      "collection_card_border_opacity": 10,
+      "collection_card_corner_radius": 0,
+      "collection_card_shadow_opacity": 0,
+      "collection_card_shadow_horizontal_offset": 0,
+      "collection_card_shadow_vertical_offset": 4,
+      "collection_card_shadow_blur": 5,
+      "blog_card_style": "standard",
+      "blog_card_image_padding": 0,
+      "blog_card_text_alignment": "left",
+      "blog_card_color_scheme": "background-2",
+      "blog_card_border_thickness": 0,
+      "blog_card_border_opacity": 10,
+      "blog_card_corner_radius": 0,
+      "blog_card_shadow_opacity": 0,
+      "blog_card_shadow_horizontal_offset": 0,
+      "blog_card_shadow_vertical_offset": 4,
+      "blog_card_shadow_blur": 5,
+      "text_boxes_border_thickness": 0,
+      "text_boxes_border_opacity": 10,
+      "text_boxes_radius": 0,
+      "text_boxes_shadow_opacity": 0,
+      "text_boxes_shadow_horizontal_offset": 0,
+      "text_boxes_shadow_vertical_offset": 4,
+      "text_boxes_shadow_blur": 5,
+      "media_border_thickness": 1,
+      "media_border_opacity": 5,
+      "media_radius": 0,
+      "media_shadow_opacity": 0,
+      "media_shadow_horizontal_offset": 0,
+      "media_shadow_vertical_offset": 4,
+      "media_shadow_blur": 5,
+      "popup_border_thickness": 1,
+      "popup_border_opacity": 10,
+      "popup_corner_radius": 0,
+      "popup_shadow_opacity": 0,
+      "popup_shadow_horizontal_offset": 0,
+      "popup_shadow_vertical_offset": 4,
+      "popup_shadow_blur": 5,
+      "drawer_border_thickness": 1,
+      "drawer_border_opacity": 10,
+      "drawer_shadow_opacity": 0,
+      "drawer_shadow_horizontal_offset": 0,
+      "drawer_shadow_vertical_offset": 4,
+      "drawer_shadow_blur": 5,
+      "badge_position": "bottom left",
+      "badge_corner_radius": 40,
+      "sale_badge_color_scheme": "accent-2",
+      "sold_out_badge_color_scheme": "inverse",
+      "accent_icons": "text",
+      "brand_headline": "",
+      "brand_description": "<p><\/p>",
+      "brand_image_width": 100,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tiktok_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "predictive_search_enabled": true,
+      "predictive_search_show_vendor": false,
+      "predictive_search_show_price": false,
+      "currency_code_enabled": true,
+      "cart_type": "notification",
+      "show_vendor": false,
+      "show_cart_note": false,
+      "cart_drawer_collection": "",
+      "sections": {
+        "main-password-header": {
+          "type": "main-password-header",
+          "settings": {
+            "color_scheme": "background-1"
+          }
+        },
+        "main-password-footer": {
+          "type": "main-password-footer",
+          "settings": {
+            "color_scheme": "background-1"
+          }
+        }
+      }
+    }
+  }
+}
